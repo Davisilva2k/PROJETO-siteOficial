@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inauguração da Loja de Roupas</title>
+    <link rel="stylesheet" href="TESTE.CSS">
+</head>
+
+<body>
+    <div id="home"></div>
+    <header id="cabecalho">
+        <div class="container-cabecalho">
+            <div class="logo">
+                <h1>Clothing Dgs </h1>
+            </div>
+            <picture>
+                <img id="img-logo" src="IMAGENS/icon-gitHub.png" alt="logo">
+            </picture>
+            <div id="descricao">
+                <p>(lojas de roupas!!) </p>
+            </div>
+
+            <nav class="nav-bar">
+                <div class="nav-list">
+                    <ul>
+                        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#promo" class="nav-link">Promoção</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="login-button">
+                    <button><a href="#cadastro">Entrar</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="IMAGENS/menu.jpg" alt="menu"></button>
+                </div>
+                <div class="mobile-menu">
+                    <ul>
+                        <li class="nav-item"><a href="#promo" class="nav-link">Promoção</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <div class="separador"></div>
+    <section class="banner">
+    </section>
+
+    <div class="separador-2"></div>
+    <section class="form-section">
+        <div class="container-cadastro">
+            <h2>Receba Novidades da Inauguração</h2>
+            <form id="form-captacao" action="https:formsubmit.co/davigraff05@gmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/cadastro.html">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">email</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Cadastre-se</button>
+            </form>
+
+        </div>
+    </section>
+    <div class="separador-3"></div>
+    <section class="slider">
+        <div class="container">
+            <div id="promo">
+                <!-- Slides -->
+                <div class="slide">
+                    <img src="IMAGENS/promo-1.webp" alt="Promoção 1">
+                    <div class="slide-descricao">
+                        <h3>Jaqueta Boss - Masculina</h3>
+                        <p>MANTENHA SUA ELEGANCIA MESMO EM TEMPERATURAS EXTREMAS!
+
+                            Simplesmente essencial e mega exclusiva: Essa é uma peça de pura sofisticação que vai
+                            ressaltar sua personalidade. E tem mais: feita com inovadora tecnologia térmica de ponta 2.0
+
+                            Investimento que vai durar uma vida toda, garantindo conforto térmico, qualidade a prova
+                            d'água e resistência que são fora de série.
+
+                            Com essa peça, não é só questão de se vestir bem, é mostrar pra todo mundo que você é
+                            autêntico, valoriza sua presença e transmite total confiança.</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="IMAGENS/promo-2.jpg" alt="Promoção 2">
+                    <div class="slide-descricao">
+                        <h4>Tênis Nike Air Max Plus 3 - Preto - Masculino </h4>
+                        <p>Tuned Air Versão 3.
+                            Com a mesma tecnologia Tuned Air de seus antecessores, o Nike Air Max Plus 3 atualiza o
+                            visual com TPU fundido ao cabedal, enquanto homenageia a icônica cor desbotada do OG.
+                            Benefícios
+                            As unidades Air-Sole no calcanhar e no antepé proporcionam amortecimento leve.
+                            Cabedal em couro e mesh combina respirabilidade e durabilidade a um visual de herança.
+                            O solado de borracha acrescenta tração e durabilidade.
+                            Os dedos de TPU e a cor desbotada remontam ao OG.
+                            Detalhes do Produto
+
+                            Suporte de TPU no calcanhar
+                            Não destinado para uso como Equipamento de Proteção Pessoal (EPP)</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="IMAGENS/promo-3.jpg" alt="Promoção 3">
+                    <div class="slide-descricao">
+                        <h5>Kit 3 Calças Moletom Masculina Jogger Slim Academia </h5>
+                    </div>
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="countdown">
+        <div class="container-cronometro">
+            <h6>Contagem Regressiva para a Inauguração</h6>
+            <div id="countdown"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <h7>Loja de Informática</h7>
+                <p>Endereço da loja: Sapucaia do sul - RS</p>
+                <p>Telefone: (51) 99497-7151</p>
+            </div>
+            
+            <div id="Contato-1">
+                <div class="footer-social">
+                    <h9>Redes Sociais</h9>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/davi-silva-0a0504243/"><img
+                                    src="IMAGENS/icon-linkedin.png" alt="linkedin"></a></li>
+                        <li><a href="https://github.com/Davisilva2k"><img src="IMAGENS/icon-gitHub.png"
+                                    alt="GitHub"></a></li>
+                        <li><a href="https://www.instagram.com/06_silvaa/?next=%2F"><img src="IMAGENS/icon-insta.png"
+                                    alt="Instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="TESTE.JS"></script>
+</body>
+
+</html>
